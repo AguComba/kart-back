@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import { AppDataSource } from '../../../infrastructure/database/data-source';
+import { AppDataSource } from '../../../../infrastructure/database/data-source';
 import { Track } from '../../domain/Track';
 import { TrackRepository } from '../../application/TrackRepository';
 

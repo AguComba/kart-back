@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import { AppDataSource } from '../../../infrastructure/database/data-source';
+import { AppDataSource } from '../../../../infrastructure/database/data-source';
 import { KartSetup } from '../../domain/KartSetup';
 import { KartSetupRepository } from '../../application/KartSetupRepository';
 
