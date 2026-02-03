@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import { AppDataSource } from '../../../infrastructure/database/data-source';
+import { AppDataSource } from '../../../../infrastructure/database/data-source';
 import { Stint } from '../../domain/Stint';
 import { StintRepository } from '../../application/StintRepository';
 
